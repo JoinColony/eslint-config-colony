@@ -1,0 +1,17 @@
+{
+  "name": "@colony/eslint-config-colony",
+  "version": "1.0.0",
+  "description": "eslint configuration for Colony projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Maniewski <chris@colony.io>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-jest": "^1.1.0",
+    "eslint-plugin-flowtype": "^2.39.1"
+  }
+}
