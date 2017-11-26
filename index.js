@@ -16,6 +16,7 @@ module.exports = {
   rules: {
     'eqeqeq': [2, 'smart'],
     'max-len': [2, 150],
+    'no-underscore-dangle': [2, { allowAfterThis: true }],
   },
   settings: {
     'import/resolver': {
