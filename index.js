@@ -18,11 +18,4 @@ module.exports = {
     'max-len': [2, 150],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
   },
-  settings: {
-    'import/resolver': {
-      jest: {
-        jestConfigFile: './jest.conf.json',
-      },
-    },
-  },
 };
