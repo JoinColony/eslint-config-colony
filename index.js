@@ -17,5 +17,6 @@ module.exports = {
     'eqeqeq': [2, 'smart'],
     'max-len': [2, 150],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
+    'import/no-anonymous-default-export': [2]
   },
 };
