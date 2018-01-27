@@ -20,6 +20,7 @@ module.exports = {
     'max-len': [2, 150],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
     'import/no-anonymous-default-export': [2],
+    'object-curly-newline': ['error', { 'consistent': true }],
     'prettier/prettier': [
       'error',
       {
