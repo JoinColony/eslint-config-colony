@@ -3,8 +3,8 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
     'prettier',
-    'prettier/flowtype',
-  ].map(require.resolve),
+    'prettier/flowtype'
+  ],
   parser: 'babel-eslint',
   env: {
     es6: true,
