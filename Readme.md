@@ -4,7 +4,18 @@ The eslint configuration used for Colony OSS projects. Instrutions copied from [
 
 ## Usage
 
-Our default export contains all of our ESLint rules. It requires `eslint`, `babel-eslint`, `eslint-plugin-import`, `eslint-plugin-flowtype`, and `eslint-import-resolver-jest`.
+Our default export contains all of our ESLint rules.
+
+**Requirements**
+
+* `babel-eslint`
+* `eslint-config-prettier`
+* `eslint-import-resolver-jest`
+* `eslint-plugin-flowtype`
+* `eslint-plugin-import`
+* `eslint-plugin-prettier`
+* `eslint`
+* `prettier`
 
 If you use yarn, run `npm info "@colony/eslint-config-colony@latest" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency. See below for npm instructions.
 

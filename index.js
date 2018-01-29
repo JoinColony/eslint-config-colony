@@ -2,21 +2,32 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
-  ].map(require.resolve),
+    'prettier',
+    'prettier/flowtype'
+  ],
   parser: 'babel-eslint',
-  env:{
-      es6: true,
-      commonjs: true,
+  env: {
+    es6: true,
+    commonjs: true,
   },
   parserOptions: {
-      ecmaVersion: 6,
-      sourceType: 'module'
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
-  plugins: ['flowtype'],
+  plugins: ['flowtype', 'prettier'],
   rules: {
     'eqeqeq': [2, 'smart'],
     'max-len': [2, 150],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
-    'import/no-anonymous-default-export': [2]
+    'import/no-anonymous-default-export': [2],
+    'prettier/prettier': [
+      'error',
+      {
+        'parser': 'flow',
+        'printWidth': 150,
+        'singleQuote': true,
+        'trailingComma': 'es5',
+      },
+    ],
   },
 };
