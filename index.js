@@ -17,7 +17,7 @@ module.exports = {
   plugins: ['flowtype', 'prettier'],
   rules: {
     'eqeqeq': [2, 'smart'],
-    'max-len': [2, { code: 80 }],
+    'max-len': [2, { code: 80, ignoreComments: true }],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
     'import/no-anonymous-default-export': [2],
     'object-curly-newline': ['error', { 'consistent': true }],
