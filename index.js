@@ -27,7 +27,7 @@ module.exports = {
         'parser': 'flow',
         'printWidth': 150,
         'singleQuote': true,
-        'trailingComma': 'es5',
+        'trailingComma': 'all',
       },
     ],
   },
