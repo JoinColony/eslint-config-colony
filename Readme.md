@@ -1,6 +1,6 @@
 # eslint-config-colony
 
-The eslint configuration used for Colony OSS projects. Instrutions copied from [eslint-config-airbnb](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/README.md)
+The eslint configuration used for Colony OSS projects. Instructions copied from [eslint-config-airbnb](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/README.md)
 
 ## Usage
 
@@ -8,13 +8,12 @@ Our default export contains all of our ESLint rules.
 
 **Requirements**
 
-* `babel-eslint`
-* `eslint-config-prettier`
-* `eslint-import-resolver-jest`
-* `eslint-plugin-flowtype`
-* `eslint-plugin-import`
-* `eslint-plugin-prettier`
 * `eslint`
+* `babel-eslint`
+* `eslint-config-airbnb-base`
+* `eslint-config-prettier`
+* `eslint-plugin-flowtype`
+* `eslint-plugin-prettier`
 * `prettier`
 
 If you use yarn, run `npm info "@colony/eslint-config-colony@latest" peerDependencies` to list the peer dependencies and versions, then run `yarn add --dev <dependency>@<version>` for each listed peer dependency. See below for npm instructions.
