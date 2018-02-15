@@ -19,8 +19,9 @@ module.exports = {
     'eqeqeq': [2, 'smart'],
     'max-len': [2, { code: 80, ignoreComments: true }],
     'no-underscore-dangle': [2, { allowAfterThis: true }],
+    'object-curly-newline': ['error', { consistent: true }],
+    'flowtype/require-valid-file-annotation': [1, 'always'],
     'import/no-anonymous-default-export': [2],
-    'object-curly-newline': ['error', { 'consistent': true }],
     'prettier/prettier': [
       'error',
       {

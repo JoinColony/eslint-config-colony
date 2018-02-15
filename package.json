@@ -9,11 +9,12 @@
   "author": "Christian Maniewski <chris@colony.io>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^8.0.2",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-flowtype": "^2.44.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "prettier": "^1.10.2"
   },
   "repository": {
