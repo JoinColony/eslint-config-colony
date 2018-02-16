@@ -13,6 +13,7 @@ Our default export contains all of our ESLint rules.
 * `eslint-config-airbnb-base`
 * `eslint-config-prettier`
 * `eslint-plugin-flowtype`
+* `eslint-plugin-import`
 * `eslint-plugin-prettier`
 * `prettier`
 
