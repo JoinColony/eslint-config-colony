@@ -1,5 +1,12 @@
 ## Changelog
 
+### v5.0.0
+
+* Update peerDependencies (most notably eslint-airbnb-config-base to v13.0.1)
+* Add dependency to `flow-bin`
+* Add `"no-use-before-define": ["error", { "functions": false, "classes": true }]` rule
+* Add `"no-warning-comments": ["error", { "terms": ["fixme"], "location": "start" }]` rule
+
 ### v4.0.0
 
 * Fix peerDependencies (add eslint)
