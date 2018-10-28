@@ -1,5 +1,12 @@
 ## Changelog
 
+### v7.0.0
+* Update "eslint" to 5.8.0
+* Update "eslint-plugin-flowtype" to 3.1.1
+* Update "eslint-plugin-prettier" to 3.0.0
+* Update "flow-bin" to 0.84.0
+* Add `'no-console': ['error', { allow: ['warn', 'error', 'info'] }]` rule
+
 ### v6.0.0
 * Update "babel-eslint" to v10.0.1
 * Update "eslint" to v5.6.0
