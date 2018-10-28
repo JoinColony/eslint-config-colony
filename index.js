@@ -16,14 +16,15 @@ module.exports = {
   },
   plugins: ['flowtype', 'prettier'],
   rules: {
-    'eqeqeq': [2, 'smart'],
-    'max-len': [2, { code: 80, ignoreComments: true }],
-    'no-underscore-dangle': [2, { allowAfterThis: true }],
+    'eqeqeq': ['error', 'smart'],
+    'max-len': ['error', { code: 80, ignoreComments: true }],
+    'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
+    'no-underscore-dangle': ['error', { allowAfterThis: true }],
     'no-use-before-define': ['error', { functions: false, 'classes': true }],
     'no-warning-comments': ['error', { terms: ['fixme'], location: 'start' }],
     'object-curly-newline': ['error', { consistent: true }],
-    'flowtype/require-valid-file-annotation': [1, 'always'],
-    'import/no-anonymous-default-export': [2],
+    'flowtype/require-valid-file-annotation': ['warn', 'always'],
+    'import/no-anonymous-default-export': ['error'],
     'prettier/prettier': [
       'error',
       {
