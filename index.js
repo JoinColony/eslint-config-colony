@@ -3,7 +3,6 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
     'prettier',
-    'prettier/flowtype',
     'plugin:eslint-comments/recommended',
   ],
   parser: 'babel-eslint',
@@ -15,7 +14,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-  plugins: ['flowtype', 'prettier'],
+  plugins: ['prettier'],
   rules: {
     'eqeqeq': ['error', 'smart'],
     'max-len': ['error', {
@@ -29,15 +28,10 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false, 'classes': true }],
     'no-warning-comments': ['error', { terms: ['fixme'], location: 'start' }],
     'object-curly-newline': ['error', { consistent: true }],
-    'flowtype/require-valid-file-annotation': ['warn', 'always', {
-      annotationStyle: 'block',
-      strict: true,
-    }],
     'import/no-anonymous-default-export': ['error'],
     'prettier/prettier': [
       'error',
       {
-        'parser': 'flow',
         'singleQuote': true,
         'trailingComma': 'all',
       },
