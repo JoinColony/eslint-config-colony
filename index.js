@@ -23,7 +23,10 @@ module.exports = {
     'no-use-before-define': ['error', { functions: false, 'classes': true }],
     'no-warning-comments': ['error', { terms: ['fixme'], location: 'start' }],
     'object-curly-newline': ['error', { consistent: true }],
-    'flowtype/require-valid-file-annotation': ['warn', 'always'],
+    'flowtype/require-valid-file-annotation': ['warn', 'always', {
+      annotationStyle: 'block',
+      strict: true,
+    }],
     'import/no-anonymous-default-export': ['error'],
     'prettier/prettier': [
       'error',
