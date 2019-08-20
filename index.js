@@ -3,7 +3,8 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
     'prettier',
-    'prettier/flowtype'
+    'prettier/flowtype',
+    'plugin:eslint-comments/recommended',
   ],
   parser: 'babel-eslint',
   env: {
