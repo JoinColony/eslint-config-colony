@@ -1,5 +1,8 @@
 ## Changelog
 
+### v8.0.1
+* Version mixup, normalize
+
 ### v8.0.0
 * Remove flow assumption and relevant packages
 * Switch to npm as the package manger
