@@ -5,7 +5,6 @@ module.exports = {
     'prettier',
     'plugin:eslint-comments/recommended',
   ],
-  parser: 'babel-eslint',
   env: {
     es6: true,
     commonjs: true,
