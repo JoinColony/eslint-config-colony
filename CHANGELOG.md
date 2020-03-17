@@ -1,5 +1,13 @@
 ## Changelog
 
+### v8.0.0
+* Remove flow assumption and relevant packages
+* Switch to npm as the package manger
+* Use default parser
+* Add eslint-comments plugin
+* Add exceptions for long import/export statements
+* Use `block` annotation style for flow annotations
+
 ### v7.0.0
 * Update "eslint" to 5.8.0
 * Update "eslint-plugin-flowtype" to 3.1.1
