@@ -2,8 +2,8 @@ module.exports = {
   extends: [
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
-    'prettier',
     'plugin:eslint-comments/recommended',
+    'plugin:prettier/recommended',
   ],
   env: {
     es6: true,
@@ -11,7 +11,7 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['prettier'],
   rules: {
