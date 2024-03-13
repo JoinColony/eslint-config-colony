@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/JoinColony/eslint-config-colony",
   "devDependencies": {
-    "release-it": "^15.5.0"
+    "release-it": "^17.1.1"
   }
 }
